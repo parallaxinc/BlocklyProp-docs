@@ -49,11 +49,25 @@ $(window).load(function(){
 });
 
 function rewrite(htmlString) {
+    var basepath = $("#basepath").val();
+    if (!basepath.endsWith('/')) {
+        basepath += '/';
+    }
+
     var html = $(htmlString);
+    // Links
     $('a', html).each(function(index, element) {
         var jElement = $(element);
         if (jElement.attr('href').startsWith('help?f=')) {
             jElement.attr('href', '#' + jElement.attr('href').substring(5));
+        }
+    });
+
+    // Images
+    $('img', html).each(function(index, element) {
+        var jElement = $(element);
+        if (jElement.attr('src').startsWith('help?f=')) {
+            jElement.attr('src', basepath + jElement.attr('src').substring(7));
         }
     });
     return html;
