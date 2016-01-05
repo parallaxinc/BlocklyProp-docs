@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="style.css" />
     <script src="lib/js/jquery-1.11.3.min.js" ></script>
+    <script src="lib/js/jquery.ba-hashchange.min.js" ></script>
     <script src="lib/js/bootstrap.min.js" ></script>
 
     <script src="lib/textile.js"></script>
@@ -17,17 +18,28 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-12">
-            <form id="settings-form">
+        <form id="settings-form">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="basepath">Basepath</label>
-                    <input type="text" class="form-control" name="basepath" id="basepath" placeholder="Basepath" style="width: 400px;"/>
-                    <p class="help-block">Directory url containing root index.textile</p>
+                    <input type="text" class="form-control" name="basepath" id="basepath" placeholder="Basepath" />
+                    <p class="help-block">Directory url containing root <code>index.textile</code>.</p>
+                    <p class="help-block"><a href="https://raw.githubusercontent.com/parallaxinc/BlocklyProp-docs/master/" class="url-template">Github master branch</a></p>
                 </div>
+            </div>
 
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="filepath">Filepath</label>
+                    <input type="text" class="form-control" id="filepath" placeholder="Filepath" />
+                    <p class="help-block">File relative to basepath without <code>.textile</code> extension.</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
                 <input type="submit" class="btn btn-primary" value="Load" />
-            </form>
-        </div>
+            </div>
+        </form>
     </div>
 
 
