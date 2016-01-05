@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>BlocklyProp textile help test page</title>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="lib/js/jquery-1.11.3.min.js" ></script>
+    <script src="lib/js/bootstrap.min.js" ></script>
+
+    <script src="lib/textile.js"></script>
+    <script src="helptest.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <form id="settings-form">
+                <div class="form-group">
+                    <label for="basepath">Basepath</label>
+                    <input type="text" class="form-control" name="basepath" id="basepath" placeholder="Basepath" style="width: 400px;"/>
+                    <p class="help-block">Directory url containing root index.textile</p>
+                </div>
+
+                <input type="submit" class="btn btn-primary" value="Load" />
+            </form>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12" id="pagecontent">
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,5 +1,0 @@
-h2. Writing manuals
-
-Showing images: !help?f=resources/logo.png(Logo)!
-
-Creating links: "Using BlocklyProp":help?f=blocklyprop
