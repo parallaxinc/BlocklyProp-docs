@@ -24,7 +24,7 @@
                     <label for="basepath">Basepath</label>
                     <input type="text" class="form-control" name="basepath" id="basepath" placeholder="Basepath" />
                     <p class="help-block">Directory url containing root <code>index.textile</code>.</p>
-                    <p class="help-block"><a href="https://raw.githubusercontent.com/parallaxinc/BlocklyProp-docs/master/" class="url-template">Github master branch</a></p>
+                    <p class="help-block">Select location: <a href="https://raw.githubusercontent.com/parallaxinc/BlocklyProp-docs/master/" class="url-template">Github master branch</a></p>
                 </div>
             </div>
 
@@ -38,6 +38,7 @@
 
             <div class="col-md-12">
                 <input type="submit" class="btn btn-primary" value="Load" />
+                <a class="btn btn-default" data-toggle="modal" href="#info" >View info</a>
             </div>
         </form>
     </div>
@@ -46,6 +47,25 @@
     <div class="row">
         <div class="col-md-12" id="pagecontent">
 
+        </div>
+    </div>
+
+    <div class="modal fade" id="info">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h3>Info</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="alert">This tool helps to view BlocklyProp help pages without having to restart the BlocklyProp server.</p>
+                    <p class="alert alert-warning"><strong>Warning:</strong> This uses an other converter than the one included in the production server.</p>
+                    <p class="alert alert-warning"><strong>Warning:</strong> Small changes in appearance with the production are possible.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

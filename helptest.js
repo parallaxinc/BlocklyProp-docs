@@ -44,6 +44,10 @@ $(document).ready(function() {
     $(window).hashchange();
 });
 
+$(window).load(function(){
+    $('#info').modal('show');
+});
+
 function rewrite(htmlString) {
     var html = $(htmlString);
     $('a', html).each(function(index, element) {
