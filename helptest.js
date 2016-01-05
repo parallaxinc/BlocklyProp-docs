@@ -33,11 +33,31 @@ $(document).ready(function() {
                 basepath += '/';
             }
 
-            $.get(basepath + file + '.textile', function (textile) {
+            $.get(basepath + file + '.textile').success(function (textile) {
                 var html = convert(textile);
           //      console.log(html);
                 html = rewrite(html);
                 $("#pagecontent").html(html);
+
+                $('.page-warnings').addClass('hidden');
+                if ($("h1", "#pagecontent").length > 0) {
+                    $('#warning-h1').removeClass('hidden');
+                }
+                var h2Count = $("h2", "#pagecontent").length;
+                if (h2Count == 0) {
+                    $('#warning-no-h2').removeClass('hidden');
+                }
+                if (h2Count > 1) {
+                    $('#warning-multiple-h2').removeClass('hidden');
+                }
+                if ($(".shorter", "#pagecontent").length > 0) {
+                    $('#warning-no-short').removeClass('hidden');
+                }
+            }).error(function(jqXHR, textStatus, errorThrown) {
+                if ($("#basepath").val().length > 0) {
+                    $('#page-not-found-url').text(basepath + file + '.textile');
+                    $('#page-not-found').modal('show');
+                }
             });
         }
     });
@@ -70,5 +90,6 @@ function rewrite(htmlString) {
             jElement.attr('src', basepath + jElement.attr('src').substring(7));
         }
     });
+
     return html;
 }

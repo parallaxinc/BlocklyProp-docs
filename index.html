@@ -43,6 +43,14 @@
         </form>
     </div>
 
+    <div class="row">
+        <div class="col-md-12">
+            <div id="warning-h1" class="alert alert-danger hidden page-warnings"><strong>Warning:</strong> There is a heading h1 defined, common practice in the help pages is h2 as largest heading.</code></div>
+            <div id="warning-no-h2" class="alert alert-danger hidden page-warnings"><strong>Warning:</strong> There is no h2 headings defined. This does not follow common practice.</code></div>
+            <div id="warning-multiple-h2" class="alert alert-danger hidden page-warnings"><strong>Warning:</strong> Multiple h2 headings are defined, only the first one will be shown in search results</code></div>
+            <div id="warning-no-short" class="alert alert-danger hidden page-warnings"><strong>Warning:</strong> There is no short content description for search results. <code>p(short). &lt;Short content&gt;</code></div>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-md-12" id="pagecontent">
@@ -61,6 +69,23 @@
                     <p class="alert">This tool helps to view BlocklyProp help pages without having to restart the BlocklyProp server.</p>
                     <p class="alert alert-warning"><strong>Warning:</strong> This uses an other converter than the one included in the production server.</p>
                     <p class="alert alert-warning"><strong>Warning:</strong> Small changes in appearance with the production are possible.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="page-not-found">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h3>Page not found</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="alert alert-danger"><strong>Page not found:</strong> <span id="page-not-found-url"></span></p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn" data-dismiss="modal">Close</a>
