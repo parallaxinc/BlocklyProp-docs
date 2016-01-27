@@ -1,0 +1,7 @@
+h2. Setting and reading pin direction: @DIRA@, @DIRB@
+
+p(short). Spin reference: Direction Register for 32-bit  Ports A and B
+
+h3. Blocks with this functionality
+
+"Setting a single pin: Make pin":help?f=blocks/input-output/pin-states/make-pin

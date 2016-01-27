@@ -1,1 +1,6 @@
 h2. Language reference
+
+p(short). Language reference
+
+"C":help?f=language/c/index
+"Spin":help?f=language/spin/index
