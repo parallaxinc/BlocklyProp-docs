@@ -11,7 +11,7 @@ p(short). BlocklyProp help overview
              <p>How to use the Blocklyprop application</p>
          </div>
          <div class="panel-footer">
-             <a href="help?f=blocklyprop" class="btn btn-lg btn-block btn-default">Help</a>
+             <a href="help?f=blocklyprop" class="btn btn-lg btn-block btn-default" style="background-color:#AECEE5;">Help</a>
          </div>
      </div>
  </div>
@@ -24,7 +24,7 @@ p(short). BlocklyProp help overview
              <p>List of blocks that can be used.</p>
          </div>
          <div class="panel-footer">
-             <a href="help?f=blocks" class="btn btn-lg btn-block btn-default">Help</a>
+             <a href="help?f=blocks" class="btn btn-lg btn-block btn-default" style="background-color:#AECEE5;">Help</a>
          </div>
      </div>
  </div>
@@ -37,7 +37,7 @@ p(short). BlocklyProp help overview
              <p>Programming language reference</p>
          </div>
          <div class="panel-footer">
-             <a href="help?f=langref" class="btn btn-lg btn-block btn-default">Help</a>
+             <a href="help?f=langref" class="btn btn-lg btn-block btn-default" style="background-color:#AECEE5;">Help</a>
          </div>
      </div>
  </div>
