@@ -1,0 +1,28 @@
+h2. Math Number
+
+p(short). Block: Use a number as a value
+
+!help?f=blocks/programming/math/resources/math_number.png(math number)!
+
+Using a number as a value block
+
+
+h3. Value
+
+!help?f=blocks/programming/math/resources/math_number_open.png(math number)!
+
+* value
+
+The value can be anything that is acceptable as an integer (such as -1 or 1) or a float (such as 0.01 or -100.95). The value defaults to 0.
+
+h3. Generated code
+
+!help?f=blocks/programming/math/resources/math_number.png(math number)!
+
+h4. Spin
+
+pre. 0
+
+h4. C
+
+pre. 0

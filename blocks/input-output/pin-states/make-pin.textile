@@ -24,8 +24,8 @@ h3. Generated code
 
 h4. Spin
 
-pre. DIRA[16]~~
-OUTA[16]~~
+pre. OUTA[16]~~
+DIRA[16]~~
 
 h4. C
 
