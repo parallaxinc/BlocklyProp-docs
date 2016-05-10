@@ -1,0 +1,56 @@
+h2. Make Pin
+
+p(short). Block: Set a given property for a single pin
+
+!help?f=blocks/input-output/pin-states/resources/make-pin-input.png(make pin)!
+
+Setting a property of single pin.
+
+
+h3. Pin properties
+
+!help?f=blocks/input-output/pin-states/resources/make-pin-drag-pin.png(make pin)!
+
+* pin number
+
+The number placed within the value input determines which pin's state/direction will be changed.
+
+!help?f=blocks/input-output/pin-states/resources/make-pin-input-open-selection.png(make pin)!
+
+* direction
+* state
+
+High and low set the state, while toggle changes a high pin into a low pin and the reverse. If the pin was an input pin, it will be changed into an output pin.
+
+Input converts the pin into an input pin, while reverse changes an input pin into an output pin and the reverse.
+
+h3. Generated code
+
+!help?f=blocks/input-output/pin-states/resources/make-pin.png(make pin)!
+
+h4. Spin
+
+pre. OUTA[16]~~
+DIRA[16]~~
+
+h4. C
+
+pre. high(16);
+
+h3. Reference
+
+ <div class="spin">
+
+h4. Spin reference
+
+"Setting pin direction":help?f=language/spin/dira-dirb
+"Setting pin output state":help?f=language/spin/outa-outb
+ </div>
+
+ <div class="propc">
+
+h4. C reference
+
+"Setting pin direction":help?f=language/c/set_direction
+"Setting pin output state":help?f=language/c/high-low
+ </div>
