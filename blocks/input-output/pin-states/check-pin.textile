@@ -1,0 +1,42 @@
+h2. Check Pin
+
+p(short). Block: Get the status of a single pin
+
+!help?f=blocks/input-output/pin-states/resources/check-pin.png(check pin)!
+
+Getting the status of a single pin.
+
+
+h3. Pin number
+
+!help?f=blocks/input-output/pin-states/resources/check-pin-open-selection.png(check pin)!
+
+* number
+
+Each number indicates a different pin number. 0 will correspond with the pin labeled 0, 1 will correspond with the pin labeled 1, and so on.
+
+h3. Generated code
+
+!help?f=blocks/input-output/pin-states/resources/check-pin.png(check pin)!
+
+h4. Spin
+
+pre. INA[0];
+
+h4. C
+
+pre. input(0);
+
+h3. Reference
+
+ <div class="spin">
+
+h4. Spin reference
+
+ </div>
+
+ <div class="propc">
+
+h4. C reference
+
+ </div>
