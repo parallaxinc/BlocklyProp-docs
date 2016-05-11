@@ -1,0 +1,63 @@
+h2. Set Pins
+
+p(short). Block: Set a given property for a set of pins
+
+!help?f=blocks/input-output/pin-states/resources/set-pins.png(set pins)!
+
+Setting a property of a set of pins.
+
+
+h3. Pin properties
+
+!help?f=blocks/input-output/pin-states/resources/set-pins-value-selection.png(set pins)!
+
+* direction
+* state
+
+!help?f=blocks/input-output/pin-states/resources/set-pins-state-selection.png(set pins)!
+
+High and low set the state, while toggle changes a high pin into a low pin and the reverse. If the pin was an input pin, it will be changed into an output pin.
+
+Input converts the pin into an input pin, while reverse changes an input pin into an output pin and the reverse.
+
+!help?f=blocks/input-output/pin-states/resources/set-pins-number-pins-selection.png(set pins)!
+
+* number of pins
+
+This will determine how many pins will be changed to the selected state/direction.
+
+!help?f=blocks/input-output/pin-states/resources/set-pins-start-pin-selection.png(set pins)!
+
+* starting pin number
+
+The number picked is the first pin that will be changed, and the number of pins (selected above) after this block will also be changed.
+
+h3. Generated code
+
+!help?f=blocks/input-output/pin-states/resources/set-pins.png(set pins)!
+
+h4. Spin
+
+pre. OUTA[0] := %1
+
+h4. C
+
+pre. set_outputs(0, 1, 0b1);
+
+h3. Reference
+
+ <div class="spin">
+
+h4. Spin reference
+
+"Setting pin direction":help?f=language/spin/dira-dirb
+"Setting pin output state":help?f=language/spin/outa-outb
+ </div>
+
+ <div class="propc">
+
+h4. C reference
+
+"Setting pin direction":help?f=language/c/set_direction
+"Setting pin output state":help?f=language/c/high-low
+ </div>
