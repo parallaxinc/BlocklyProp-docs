@@ -1,0 +1,29 @@
+h2. Math Crement
+
+p(short). Block: Increment/Decrement a variable
+
+!help?f=blocks/programming/math/resources/math_crement.py(math crement)!
+
+Incrementing/Decrementing a variable
+
+
+h3. Operation
+
+!help?f=blocks/programming/math/resources/math_crement_open_selection.png(math crement)!
+
+* decrement
+* increment
+
+Decrementing a variable reduces the number by 1 (for instance if the variabl has a value of 10 initially, it will now have a value of 9) and incrementing a variable adds one to the variable. Because incrementing/decrementing a variable is a numeric operation, decrement/increment only works with integers and floats.
+
+h3. Generated code
+
+!help?f=blocks/programming/math/resources/math_crement_value.png(math crement)!
+
+h4. Spin
+
+pre. my_var--
+
+h4. C
+
+pre. my_var--;
