@@ -1,0 +1,49 @@
+h2. Math Limit
+
+p(short). Block: Apply the limit of two values
+
+!help?f=blocks/programming/math/resources/math_limit.png(math limit)!
+
+Applying the limit of two values
+
+
+h3. Limit
+
+!help?f=blocks/programming/math/resources/math_limit_open_selection.png(math limit)!
+
+* min
+* max
+
+The min returns the minimum limit, and the maximum returns the maximum limit.
+
+!help?f=blocks/programming/math/resources/math_limit_value.png(math limit)!
+
+Drag and drop two math number blocks, the output from other blocks, or variables into the two value inputs to apply a limit.
+
+h3. Generated code
+
+!help?f=blocks/programming/math/resources/math_limit.png(math limit)!
+
+h4. Spin
+
+pre. 1 #> 5
+
+h4. C
+
+pre. 1 #> 5;
+
+h3. Reference
+
+    <div class="spin">
+
+h4. Spin reference
+
+"Math number":help?f=language/spin/math_number
+    </div>
+
+    <div class="propc">
+
+h4. C reference
+
+"Math number":help?f=language/c/math_number
+    </div>
