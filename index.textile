@@ -1,43 +1,27 @@
-h2. BlocklyProp help overview
+h3. Let's get started!
 
 p(short). BlocklyProp help overview
 
  <div class="col-sm-4 col-xs-12">
      <div class="panel panel-default">
          <div class="panel-heading">
-             <h4 class="text-center">Using BlocklyProp</h4>
+		!help?f=resources/ActivityBoard.png(Propeller Activity Board)!
          </div>
          <div class="panel-body text-center">
-             <p>How to use the Blocklyprop application</p>
-         </div>
-         <div class="panel-footer">
-             <a href="help?f=blocklyprop" class="btn btn-lg btn-block btn-default" style="background-color:#AECEE5;">Help</a>
+             <a href="http://learn.parallax.com/ab-blockly-intro">Getting Started with the Propeller Activity Board and BlocklyProp</a>
          </div>
      </div>
  </div>
+
  <div class="col-sm-4 col-xs-12">
      <div class="panel panel-default">
          <div class="panel-heading">
-             <h4 class="text-center">Blocks</h4>
+             !help?f=resources/S3.png(Scribbler Robot)!
          </div>
          <div class="panel-body text-center">
-             <p>List of blocks that can be used.</p>
-         </div>
-         <div class="panel-footer">
-             <a href="help?f=blocks" class="btn btn-lg btn-block btn-default" style="background-color:#AECEE5;">Help</a>
+             <a href="http://learn.parallax.com/s3-blockly-intro">Getting Started with the Scribbler robot and BlocklyProp</a>
          </div>
      </div>
  </div>
- <div class="col-sm-4 col-xs-12">
-     <div class="panel panel-default">
-         <div class="panel-heading">
-             <h4 class="text-center">Language reference</h4>
-         </div>
-         <div class="panel-body text-center">
-             <p>Programming language reference</p>
-         </div>
-         <div class="panel-footer">
-             <a href="help?f=langref" class="btn btn-lg btn-block btn-default" style="background-color:#AECEE5;">Help</a>
-         </div>
-     </div>
- </div>
+
+
