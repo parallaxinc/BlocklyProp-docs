@@ -8,7 +8,8 @@ p(short). BlocklyProp help overview
 		!help?f=resources/ActivityBoard.png(Propeller Activity Board)!
          </div>
          <div class="panel-body text-center">
-             <a href="http://learn.parallax.com/ab-blockly-intro">Getting Started with the Propeller Activity Board and BlocklyProp</a>
+             <a href="http://learn.parallax.com/ab-blockly-intro">Getting Started with the Propeller Activity Board and BlocklyProp</a><br /><br />
+             <a href="http://learn.parallax.com/ab-blocks">Activity Board WX Block Reference</a>
          </div>
      </div>
  </div>
@@ -19,7 +20,8 @@ p(short). BlocklyProp help overview
              !help?f=resources/S3.png(Scribbler Robot)!
          </div>
          <div class="panel-body text-center">
-             <a href="http://learn.parallax.com/s3-blockly-intro">Getting Started with the Scribbler robot and BlocklyProp</a>
+             <a href="http://learn.parallax.com/s3-blockly-intro">Getting Started with the Scribbler robot and BlocklyProp</a><br /><br />
+             <a href="http://learn.parallax.com/s3-blocks">Scribbler 3 Block Reference</a>
          </div>
      </div>
  </div>
